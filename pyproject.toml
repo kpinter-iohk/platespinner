@@ -1,0 +1,10 @@
+[project]
+name = "platespinner"
+version = "1.0.0"
+description = "GNOME notifications for Claude Code sessions waiting on you"
+requires-python = ">=3.11"
+license = "MIT"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
